@@ -1,0 +1,15 @@
+{
+  "firebase": "refire-hackathon-app",
+  "public": "dist",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ],
+  "cleanUrls": true,
+  "rules": "security-rules.json",
+  "rewrites": [{
+    "source": "**",
+    "destination": "/index.html"
+  }]
+}
